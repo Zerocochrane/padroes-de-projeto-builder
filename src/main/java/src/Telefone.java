@@ -1,3 +1,5 @@
+package src;
+
 public class Telefone {
 
     private int ddd;
@@ -24,7 +26,7 @@ public class Telefone {
 
     @Override
     public String toString() {
-        return "Telefone{" +
+        return "src.Telefone{" +
                 "ddd=" + ddd +
                 ", numero=" + numero +
                 '}';

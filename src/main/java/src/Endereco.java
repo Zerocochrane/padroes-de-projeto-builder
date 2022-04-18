@@ -1,3 +1,5 @@
+package src;
+
 public class Endereco {
 
     private String logradouro;
@@ -47,7 +49,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
+        return "src.Endereco{" +
                 "logradouro='" + logradouro + '\'' +
                 ", numero='" + numero + '\'' +
                 ", complemento='" + complemento + '\'' +
